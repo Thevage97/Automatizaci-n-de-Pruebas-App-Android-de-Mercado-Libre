@@ -41,8 +41,7 @@ Cada ejecución genera capturas de pantalla y reportes (HTML, JSON y Allure) con
 ```
 bash
 # 1. Clonar repositorio
-git clone https://github.com/<tu-org>/ml-android-automation.git
-cd  ml-android-automation
+git clone https://github.com/Thevage97/Automatizaci-n-de-Pruebas-App-Android-de-Mercado-Libre.git
 
 # 2. Instalar gemas
 bundle install

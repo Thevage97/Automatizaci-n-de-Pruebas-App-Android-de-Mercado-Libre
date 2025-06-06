@@ -43,7 +43,7 @@ bash
 # 1. Clonar repositorio
 git clone https://github.com/Thevage97/Automatizaci-n-de-Pruebas-App-Android-de-Mercado-Libre.git
 
-# 2. Instalar gemas
+# 2. En la carpeta raiz del proyecto ejecutar
 bundle install
 
 # 3. Instalar driver de Appium (solo la primera vez)
@@ -68,8 +68,13 @@ appium driver install uiautomator2
 
 ## ▶️ Ejecución de pruebas
 
+Iniciar el servicio de Appium
 ```
-cucumber --tags @ML
+appium
+```
+Ejecutar el comando en consola
+```
+ bundle exec cucumber
 ```
 
 ## 📝 Personalización rápida
